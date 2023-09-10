@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/ico/10711.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <header  style=" background-color: beige;" >
+        <nav >
+            <ul class="menu">
+                <li class="opciones_menu"><a style="display:flex;" href="/index.html"><img  style="height: 80px;" src="/ico/casa.ico" alt=""></a><p style="font-size: 13px;">PRINCIPAL</p></li>
+                <li class="opciones_menu"><a style="display:flex;" href="agrupacion.html"><img  style="height: 80px;" src="/ico/equipar.ico" alt=""></a><p style="font-size: 13px;">AGRUPACION</p></li>
+                <li class="opciones_menu"><a style="display:flex;" href="multimedia.html"><img style="height: 80px;" src="/ico/multimedia.ico" alt=""></a><p style="font-size: 13px;">MULTIMEDIA</p></li>
+                <li class="opciones_menu"><a style="display:flex;" href="formularios.html"><img style="height: 80px;" src="/ico/formulario-de-consentimiento-del-donante.ico" alt=""></a><p style="font-size: 12px;">FORMULARIO</p></li>
+                <li class="opciones_menu"><a style="display:flex;" href="semanticas.html"><img style="height: 80px;" src="/ico/icons8-texto.svg" alt=""></a><p style="font-size: 13px;">SEMANTICAS</p></li>
+                <li class="opciones_menu"><a style="display:flex;" href="Texto.html"><img style="height: 80px;" src="/ico/fuente.ico" alt=""></a><p style="font-size: 12px;">TEXTO</p></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 style="text-align: center;">ETIQUETAS DE AGRUPACION</h1>
+    <UL>
+        <li>
+            <h3>etiquetas "table"</h3>
+            <table border="1">
+                
+                    <caption><h4>CARROS</h4> </caption>
+                    <tr>
+                        <th scope="rowgroup">MARCA</th>
+                        <th>MODELO</th>
+                        <th>FOTO</th>
+                    </tr>
+                
+                
+                    <tr>
+                        <td>mazda</td>
+                        <td>RX8</td>
+                        <td><img src="" alt="foto de rx8"></td>
+                    </tr>
+                    <tr>
+                        <td>toyota</td>
+                        <td>hilux</td>
+                        <td><img src="" alt="foto de hilux"></td>
+                    </tr>
+                    <tr>
+                        <td>chevrolet</td>
+                        <td>D-max</td>
+                        <td><img src="" alt="foto de D-max"></td>
+                    </tr>
+                    <tr>
+                        <td>chevrolet</td>
+                        <td >Trooper</td>
+                        <td><img src="" alt="foto de Trooper"></td>
+                    </tr>
+                
+                
+                    <tr>
+                      <td  colspan="3" style="text-align: center;">footer de la tabla</td>  
+                    </tr>
+                
+            </table>
+        </li>
+        <li>
+            <h3>Organizacion de tablas</h3>
+                <table border="1">
+                    <caption>Paises de latinoamerica</caption>
+                    <thead>
+                        <tr>
+                            <th>
+                                PAIS
+                            </th>
+                            <th>
+                                Departementos/Estado
+                            </th>
+                            <th>
+                                Capital
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td  rowspan="4">COLOMBIA</td>
+                        </tr>
+                        <tr>
+                            <td>Cesar</td>
+                            <td>Valledupar</td>
+                        </tr>
+                        <tr>
+                            <td>Santander</td>
+                            <td>Bucaramanga</td>
+                        </tr>
+                        <td>Amazonas</td>
+                        <td>Leticia</td>
+                        <tr>
+                            <td  rowspan="4">Brasil</td>
+                        </tr>
+                        <tr>
+                            <td>Goiás</td>
+                            <td>Goiânia</td>
+                        </tr>
+                        <tr>
+                            <td>Alagoas</td>
+                            <td>Maceió</td>
+                        </tr>
+                        <td>Amazonas</td>
+                        <td>Manaos</td>
+                    </tbody>
+                    <tfoot> 
+                        <tr>
+                            <td colspan="3" style="text-align: center;">
+                                table 2
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+        </li>
+        <li>
+            <h3>columnas en tablas</h3>
+            <table border="1">
+                <caption>Tabla de Estudiantes</caption>
+                <thead>
+                        <th>Estudiante</th>
+                        <th>Codigo</th>
+                        <th>
+                            <table border="1">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2"><u> ¿Aprobo? </u></th>
+                                    </tr>
+                                    <tr>
+                                        <th>SI</th>
+                                        <th>NO</th>
+                                    </tr>
+                                </thead>
+                            </table>    
+                </thead>
+                <tbody>
+                        <tr>
+                            <td>
+                               Mario
+                            </td>
+                            <td>
+                                23345
+                            </td>
+                            <td>
+                                si
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Paola</td>
+                            <td>94385</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Julio
+                            </td>
+                            <td>
+                                32434
+                            </td>
+                            <td>no</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" style="text-align: center;">
+                            tabla 3
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </li>
+    </UL>
+</body>
+</html>
