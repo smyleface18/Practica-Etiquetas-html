@@ -1,6 +1,10 @@
-*{font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
 
+*{font-family: 'Roboto', sans-serif;
     }
+li{
+    list-style: none;
+}
 .menu{
     display:flex ;
     flex-direction: row;
@@ -22,6 +26,22 @@
     margin-left: 25px;
 
 }
-.span{
-    text-decoration-color: aqua;
+span{
+    color: blue;
+}
+#option_one, #option_three{
+    color:brown;
+    font-weight:900;
+    background-color: aquamarine;
+    margin-left: 20px;
+}
+.options_group{
+    background-color: black;
+    padding:2px;
+}
+[disable]{
+    background-color: brown;
+}
+.options_group.other_option{
+    font-size: 20px;
 }
