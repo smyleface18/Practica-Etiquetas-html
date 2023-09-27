@@ -19,23 +19,23 @@ h1{
     color: var(--secundary);
 }
 .background{
+    margin: 0%;
     content: "";
     position: absolute;
     height: 100vh;
-    width: 100vh;
+    width: 100%;
     display: grid;
     place-items: center;
-    background-image: url(https://img.freepik.com/vector-gratis/lindo-astronauta-montando-cohete-agitando-mano-icono-dibujos-animados-ilustracion-concepto-icono-tecnologia-ciencia_138676-2130.jpg?w=826&t=st=1695838204~exp=1695838804~hmac=75050ecdfb059c8973da633bacad3a3f5b89aae62d90cf601181ca6d643bbacc);
-    background-repeat: no-repeat;
+    background-image:url(https://img.freepik.com/vector-gratis/fondo-galaxia-degradado_23-2148966973.jpg?w=1060&t=st=1695855953~exp=1695856553~hmac=1175e9c85683cfe1f4daac86bf08f9cc3670777f75c732a8088ed493215fa632);
+    background-repeat: repeat;
     background-size:auto;
-    opacity:0.5;
+    opacity: 0.8;
 }
 .centering{
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vh;
+    
 }
 .my_form{
     display: flex;
@@ -45,7 +45,7 @@ h1{
     background-color: var(--background);
     border: 1px soild var(--primary);
     border-radius: 16px;
-    box-shadow: 0 20px 60 px var(--aura);
+    box-shadow: 0 20px 60px var(--aura);
     max-width: 460px;
     min-width: 280px;
     width: 100%;
@@ -106,7 +106,7 @@ h1{
     background-color:var(--primary);
 }
 .text_field img {
-    position:absolute;
+    position:relative;
     right: -2px;
     bottom:-4px;
     width: 30px;
